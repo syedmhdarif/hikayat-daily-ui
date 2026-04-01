@@ -1,6 +1,6 @@
 {
   "name": "@hikayat/hikayat-daily-ui",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A React Native UI component library with design tokens, theming, and glassmorphism support.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
