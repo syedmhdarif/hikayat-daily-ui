@@ -5,9 +5,9 @@ A React Native UI component library with design tokens, theming (light/dark), an
 ## Installation
 
 ```bash
-yarn add hikayat-daily-ui
+yarn add @hikayat/hikayat-daily-ui
 # or
-npm install hikayat-daily-ui
+npm install @hikayat/hikayat-daily-ui
 ```
 
 ### Peer Dependencies
@@ -33,7 +33,7 @@ This library uses the **Roboto** font family. Link the fonts in your React Nativ
 Wrap your app with `ThemeProvider`:
 
 ```tsx
-import { ThemeProvider } from 'hikayat-daily-ui';
+import { ThemeProvider } from '@hikayat/hikayat-daily-ui';
 
 export default function App() {
   return (
@@ -55,7 +55,7 @@ import {
   Colors,
   spacing,
   useThemeColors,
-} from 'hikayat-daily-ui';
+} from '@hikayat/hikayat-daily-ui';
 
 function MyScreen() {
   const colors = useThemeColors();
